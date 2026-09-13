@@ -1,3 +1,15 @@
+/*
+ * Author: Kindle Schneider
+ * Date: September 12, 2026
+ * Class: INFO 1541 WA
+ * Assignment: 1 - Employee Unit Tests & Annotations
+ *
+ * AI Assistance: Portions of this work received assistance from Claude,
+ * an AI assistant by Anthropic (https://claude.ai), including debugging
+ * help, explanations of JUnit and reflection concepts, and code review.
+ * All code was written and verified by the author.
+ */
+
 package EmployeeObjects;
 
 import EmployeeBlueprints.Employee;
