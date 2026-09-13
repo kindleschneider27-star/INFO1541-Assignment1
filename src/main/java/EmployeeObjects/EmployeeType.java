@@ -7,3 +7,12 @@ import java.lang.annotation.RetentionPolicy;
 public @interface EmployeeType {
 String type();
 }
+
+@Retention(RetentionPolicy.RUNTIME)
+@interface WeeklyPayCalculator{
+}
+
+@Retention(RetentionPolicy.RUNTIME)
+@interface PayRate{
+    String type();
+}

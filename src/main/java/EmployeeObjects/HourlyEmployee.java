@@ -11,6 +11,7 @@ import EmployeeBlueprints.EmployeeType;
 
 @EmployeeObjects.EmployeeType(type = "Hourly")
 public final class HourlyEmployee extends Employee {
+    @PayRate(type = "Hourly")
     private double wage;
     private double hoursWorked;
 
@@ -70,6 +71,8 @@ public final class HourlyEmployee extends Employee {
      *
      * @return a double for the weekly pay
      */
+
+    @WeeklyPayCalculator
     @Override
     public double calculateWeeklyPay()
     {
