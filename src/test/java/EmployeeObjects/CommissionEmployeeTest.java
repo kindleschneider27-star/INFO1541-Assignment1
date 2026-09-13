@@ -16,7 +16,6 @@ class CommissionEmployeeTest {
     @Test
     void testHolidayBonus() {
         assertEquals(0, emp.holidayBonus());
-
     }
 
     @Test
