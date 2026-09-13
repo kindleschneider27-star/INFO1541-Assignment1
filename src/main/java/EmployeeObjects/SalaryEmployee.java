@@ -63,7 +63,10 @@ public final class SalaryEmployee extends Employee {
     @Override
     public double holidayBonus()
     {
-        return salary * .03365;
+        double bonus = salary * .03365;
+        bonus = (double)Math.round(bonus*100)/100;
+        return bonus;
+
     }
 
     /**
